@@ -8,8 +8,8 @@ async function VizualizarInformacoesGlobais(){
     const paragrafo = document.createElement('p');
     paragrafo.classList.add('graficos-container__texto');
     paragrafo.innerHTML= `Você Sabia que o mundo tem 
-    ${dados.total_pessoas_mundo} de pessoas e que aproximadamente 
-    ${dados.total_pessoas_conctadas} estão conectadas em alguma rede social e passam em media ${dados.tempo_medio}
+    <span>${dados.total_pessoas_mundo}</span> de pessoas e que aproximadamente 
+    <span>${dados.total_pessoas_conectadas}</span> estão conectadas em alguma rede social e passam em media <span> ${dados.tempo_medio} </span>
     horas conctadas`
 
     const container = document.getElementById('graficos-container');

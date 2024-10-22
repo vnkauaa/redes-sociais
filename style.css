@@ -68,3 +68,20 @@ footer{
     margin-top: 2rem;
     font-family: var(--fonte2);
 }
+
+.graficos-container{
+    margin: 5rem;
+}
+
+.graficos-container__texto{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--cor-secundaria) solid 2px;
+}
+
+span{
+    font-weight: bold;
+    color:rgb(90, 141, 93);
+    font-family: var(--fontz);
+}
